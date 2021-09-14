@@ -1,0 +1,8 @@
+Package: libusb
+Version: 1.0.24
+Port-Version: 4
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 60ef8f01e0bb4799c5c4b2ce2cdd7abcdfc8a975
+Description: a cross-platform library to access USB devices
+Type: Port

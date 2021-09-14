@@ -1,0 +1,45 @@
+﻿camera.obj : error LNK2019: unresolved external symbol _freenect_init referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_shutdown referenced in function "void __cdecl camera_dispose(void)" (?camera_dispose@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_process_events referenced in function "void __cdecl kinect_thread_function(void)" (?kinect_thread_function@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_list_device_attributes referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_free_device_attributes referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_select_subdevices referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_open_device_by_camera_serial referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_close_device referenced in function "void __cdecl camera_dispose(void)" (?camera_dispose@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_set_depth_callback referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_set_video_callback referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_start_depth referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_start_video referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_stop_depth referenced in function "void __cdecl camera_dispose(void)" (?camera_dispose@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_stop_video referenced in function "void __cdecl camera_dispose(void)" (?camera_dispose@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_set_led referenced in function "void __cdecl kinect_thread_function(void)" (?kinect_thread_function@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_find_video_mode referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_set_video_mode referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_find_depth_mode referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_set_depth_mode referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _freenect_set_flag referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+camera.obj : error LNK2019: unresolved external symbol _SDL_LogWarn referenced in function "void __cdecl kinect_thread_function(void)" (?kinect_thread_function@@YAXXZ)
+camera.obj : error LNK2019: unresolved external symbol _SDL_LogError referenced in function "bool __cdecl camera_initialize(void)" (?camera_initialize@@YA_NXZ)
+graphics.obj : error LNK2001: unresolved external symbol _SDL_LogError
+main.obj : error LNK2001: unresolved external symbol _SDL_LogError
+graphics.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "bool __cdecl graphics_initialize(void)" (?graphics_initialize@@YA_NXZ)
+main.obj : error LNK2001: unresolved external symbol _SDL_GetError
+graphics.obj : error LNK2019: unresolved external symbol _SDL_CreateRGBSurfaceWithFormat referenced in function "struct SDL_Surface * __cdecl graphics_create_SDL_surface_from_depth_frame(unsigned short const (*)[307200])" (?graphics_create_SDL_surface_from_depth_frame@@YAPAUSDL_Surface@@PAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_CreateRGBSurfaceFrom referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "void __cdecl graphics_dispose(void)" (?graphics_dispose@@YAXXZ)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_CreateWindowAndRenderer referenced in function "bool __cdecl graphics_initialize(void)" (?graphics_initialize@@YA_NXZ)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "int __cdecl graphics_render(unsigned char const (*)[921600],unsigned short const (*)[307200])" (?graphics_render@@YAHPAY0OBAAA@$$CBEPAY0ELAAA@$$CBG@Z)
+graphics.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "void __cdecl graphics_dispose(void)" (?graphics_dispose@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\duyc8\git\senior_design\Swarm\swarm\ext\SDL2\win\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\duyc8\git\senior_design\Swarm\swarm\ext\SDL2\win\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\duyc8\git\senior_design\Swarm\swarm\ext\libfreenect_windows\new_build\lib\Debug\freenect.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\duyc8\git\senior_design\Swarm\swarm\Debug\swarm.exe : fatal error LNK1120: 38 unresolved externals

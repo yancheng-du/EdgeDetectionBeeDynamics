@@ -2,6 +2,7 @@
 #include <cstring>
 #include <mutex>
 #include <thread>
+#include <libusb.h>
 #include <libfreenect.h>
 #include <SDL_log.h>
 

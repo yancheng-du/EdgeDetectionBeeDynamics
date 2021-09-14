@@ -1,15 +1,15 @@
 #include <SDL.h>
-
+#include <stdio.h>
 #include "camera.h"
 #include "graphics.h"
 
 int main(int argc, char *argv[])
 {
-	if (SDL_Init(SDL_INIT_VIDEO)==0)
+	printf("Hello World!\n");
+	if (SDL_Init(SDL_INIT_VIDEO) == 0)
 	{
 		camera_initialize();
 		graphics_initialize();
-		
 		while (true)
 		{
 			SDL_Event event;
